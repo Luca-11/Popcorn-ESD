@@ -26,9 +26,19 @@
   display: flex;
   flex-direction: row;
 }
+#menu a{
+  all: unset;
+  color: white;
+  
+}
+#menu a:hover{
+ cursor: pointer;
+
+}
 
 h1 {
   font-size: 80px !important;
+  color: white !important;
 }
 
 #video {
