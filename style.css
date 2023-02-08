@@ -1,0 +1,71 @@
+/* body {
+  background-image: url(img/wallpaper-1.jpg);
+} */
+
+/* .gradient {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#00000018, #000000e0);
+}
+
+#section {
+  display: flex;
+  height: 100vh;
+  align-items: end;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  color: white;
+} */
+
+#menu {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 80px !important;
+}
+
+#video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  user-select: none;
+  z-index: -2;
+}
+
+.gradient {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#00000081, #000000);
+  z-index: -1;
+}
+
+#title {
+  width: 671px;
+  margin: auto;
+}
+
+#title button {
+  all: unset;
+  text-align: center;
+  width: 202px;
+  border: solid white 1.5px;
+  margin: auto;
+  padding: 12.5px;
+  border-radius: 13px;
+  color: white;
+}
+#title button:hover {
+  cursor: pointer;
+}
