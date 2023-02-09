@@ -18,7 +18,7 @@ export default {
       <div class="d-flex flex-column justify-content-center" id="title">
 
         <h1 class="text-center z-2  text-white">Challenge our Pop Culture</h1>
-        <button>Check our last game</button>
+        <button class="my-5">Check our last game</button>
 
           <div id="buttons" class="d-flex justify-content-center">
             <a href ="">Pop-corn game</a>
