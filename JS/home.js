@@ -1,17 +1,18 @@
 import navigation from "./navigation.js";
 import card from "./card.js";
 export default {
-  props:{
-    url : String
+  props: {
+    url: String,
   },
-  components: { navigation ,card},
+  components: { navigation, card },
   template: `
-  <div id="content">
+<div id="content">
   <div>
   <video id="video" src="./img/IntroHubESDPopcorn.mp4" autoplay loop muted></video>
   <div class="gradient"></div>
   </div>
-<div>
+  
+  <div>
     <navigation class="z-2"></navigation>
 
     <div class="d-flex flex-column justify-content-center" id="title">
@@ -22,7 +23,7 @@ export default {
       <a id="btn-right" href="">Swipe-game</a>
     </div>
     </div>
-</div>
+  </div>
 </div>
    
 

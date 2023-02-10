@@ -216,3 +216,9 @@ cursor: pointer;
 #right h5{
   color: white;
 }
+#contentJeux{
+  display: flex;
+}
+#contentJeux h2{
+  color: white;
+}
