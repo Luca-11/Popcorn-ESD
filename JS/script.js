@@ -13,7 +13,7 @@ createApp({
 
 <home ></home>
 
-<div id="aled" class= "container">
+<div id="games" class= "container">
   <div class="row">
     <div id="feat" class="my-5">
     <div id="logos" class="my-5">
@@ -23,7 +23,7 @@ createApp({
     </div>
     <div class="text-center" id="texte">
       <h2>Vous présente de nouveaux Jeux</h2>
-      <p>Lörem ipsum ong eust yn än detism neling. Vade got mitebeligt. Netepp pebel. Dyspod trang i vada, att spårpixel disamma. Bloggare biong tefili jag neska. </p>
+      <p class="my-5">"Revivez les années 80 avec ces trois jeux qui vous transporteront dans une époque de lumières clignotantes, de pop culture et de divertissement déjanté"</p>
     </div>
   </div>
 </div>

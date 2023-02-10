@@ -8,7 +8,7 @@ export default {
         <img class="img-fluid" src="./img/logoPopcorn.png" alt="logo-popcorn" />
       </div>
       
-       <div class="col-2">
+       <div class="col-2" id="contentContact">
         <a href="#" id="contact">Contact.</a>
         </div>
     </div>
