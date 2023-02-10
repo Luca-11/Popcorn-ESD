@@ -101,11 +101,6 @@ h1 {
   color: white;
 }
 
-#follow a {
-  all: unset;
-  color: white;
-}
-
 #background {
   position: absolute;
   width: 100%;
@@ -158,4 +153,26 @@ h1 {
 #help {
   display: flex;
   justify-content: center;
+}
+
+#pacman {
+  scale: 0.5;
+  z-index: 10;
+  position: absolute;
+  top: 775px;
+}
+
+footer {
+  padding-bottom: 30px;
+}
+
+footer a {
+  all: unset;
+  color: white;
+}
+
+footer a:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }

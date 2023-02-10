@@ -34,16 +34,10 @@ export default {
 
 
 
-
-
-
-
-
-
-
 <div id="aled" class= "container">
   <div class="row">
     <div id="help">
+
       <img class="img-fluid" src="./img/logo-bas.png" alt=""/>
     </div>
 
@@ -60,19 +54,6 @@ export default {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <footer class="bg-black" class="z-2">
   <div id="test" class="d-flex flex-column justify-content-center">
     <img id="heart" src="./img/heart-2x.png"/>
@@ -80,11 +61,11 @@ export default {
   </div>
 
   <div id="follow">
-    <a href="">Facebook</a>
-    <a href="">Instagram</a>
-    <a href="">Youtube</a>
-    <a href="">Twitter</a>
-    <a href="">Soundcloud</a>
+    <a href="https://www.facebook.com/PopCornSoixanteSix/">Facebook</a>
+    <a href="https://www.instagram.com/popcorn66fr/">Instagram</a>
+    <a href="https://www.youtube.com/c/popcorn66">Youtube</a>
+    <a href="https://twitter.com/PopCorn66_FR">Twitter</a>
+    <a href="https://soundcloud.com/popcorn66fr">Soundcloud</a>
   </div>
 </footer>
   

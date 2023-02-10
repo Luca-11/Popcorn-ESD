@@ -9,7 +9,7 @@ export default {
       </div>
       
        <div class="col-2 d-flex justify-content-end">
-        <a id="contact" href="#">Contact.</a>
+        <a id="contact" href="mailto:hello@popcorn66.fr">Contact.</a>
         </div>
     </div>
   </div>
