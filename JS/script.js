@@ -3,7 +3,7 @@ import home from "./home.js";
 import card from "./card.js";
 import presGame from "./pres-game.js";
 
-const url= "http://localhost:3500/jeux";
+const url= "http://185.44.81.51:9740/jeux";
 const parseUrl =  new URL(window.location.href)
 const id = parseUrl.searchParams.get("id");
 
