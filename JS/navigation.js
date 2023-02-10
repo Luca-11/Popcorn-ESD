@@ -9,7 +9,7 @@ export default {
       </div>
       
        <div class="col-2" id="contentContact">
-        <a href="#" id="contact">Contact.</a>
+        <a href="mailto:hello@popcorn66.fr" id="contact">Contact.</a>
         </div>
     </div>
   </div>
