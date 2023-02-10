@@ -1,14 +1,21 @@
 export default{
 
     props:{
-        Image : String,
+        id:Number,
+        image : String,
         text: String
     },
+    methods:{
+        redirection(){
+            window.location.href="jeux.html?id="+ this.id;
+    
+        }
+    },
     template : `
-    <div class="card">
+    <div class="carte col-md-4 col-12 my-5" @click="redirection">
 
-    <img :src="Image"  class="img-fluid"/>
-    <p>{{text}}</p>
+    <img :src="image"  class="img-fluid"/>
+ 
     </div>
     
     `
