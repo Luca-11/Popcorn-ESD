@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(180deg, #222539 41.47%, #00C4B3 100%);
+  
 }
 
 /* .gradient {
@@ -36,7 +37,9 @@ body {
  cursor: pointer;
 
 }
-
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Roboto Mono', monospace;
+}
 h1 {
   font-size: 80px !important;
   color: white !important;
@@ -60,7 +63,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#00000081, #000000);
+  background: linear-gradient(#00000081, #222539);
   z-index: -1;
 }
 
@@ -131,7 +134,7 @@ h1 {
 .carte :hover{
   cursor: pointer;
   filter: brightness(60%);
-  animation:slide-top 2s cubic-bezier(.25,.46,.45,.94) both;
+  animation:slide-top 0.7s cubic-bezier(.25,.46,.45,.94) both;
   
 }
 /* ----------------------------------------------
@@ -197,7 +200,7 @@ cursor: pointer;
 #right {
   padding-left: 40px;
   border-left: 3px solid #00c4b3;
-  width: 50%;
+  
 }
 #play{
  all: unset;
@@ -231,7 +234,7 @@ cursor: pointer;
 
 #texte {
   width: 1000px;
-  border-bottom: 2px solid #00c4b3;
+ 
   display: flex;
   justify-content: center;
   flex-direction: column;

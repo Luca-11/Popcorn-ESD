@@ -16,7 +16,7 @@ export default {
     <navigation class="z-2"></navigation>
 
     <div class="d-flex flex-column justify-content-center" id="title">
-      <h1 class="text-center z-2 my-5">Challenge our Pop Culture</h1>
+      <h1 class="text-center z-2 my-5">PopCorn Gaming ESD</h1>
       <a id="check" href="#games">Check our last game</a>
      
     </div>
