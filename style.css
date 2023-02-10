@@ -248,3 +248,10 @@ cursor: pointer;
   color: white;
 }
 
+.logoAnimation {
+  transition: 1s;
+}
+
+.logoAnimation:hover {
+  scale: 1.2;
+}

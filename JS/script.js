@@ -17,8 +17,12 @@ createApp({
   <div class="row">
     <div id="feat" class="my-5">
     <div id="logos" class="my-5">
-      <img class="img-fluid" src="./img/logo.png" alt="logo-popcorn"/>
-      <img class="img-fluid" src="./img/logo-esd.png" alt="logo-esd"/>
+    <a href="https://popcorn66.fr/">
+    <img class="img-fluid logoAnimation" src="./img/logo.png" alt="logo-popcorn"/>
+  </a>
+  <a href="https://ecole-du-digital.com">
+    <img class="img-fluid logoAnimation" src="./img/logo-esd.png" alt="logo-esd"/>
+  </a>
       </div>
     </div>
     <div class="text-center" id="texte">
@@ -38,11 +42,11 @@ createApp({
     <p class=" my-2 text-white">Good Places For Popcorn Covers</p>
   </div>
   <div id="follow">
-    <a href="">Facebook</a>
-    <a href="">Instagram</a>
-    <a href="">Youtube</a>
-    <a href="">Twitter</a>
-    <a href="">Soundcloud</a>
+    <a href="https://www.facebook.com/PopCornSoixanteSix/">Facebook</a>
+    <a href="https://www.instagram.com/popcorn66fr/">Instagram</a>
+    <a href="https://www.youtube.com/c/popcorn66">Youtube</a>
+    <a href="https://twitter.com/PopCorn66_FR">Twitter</a>
+    <a href="https://soundcloud.com/popcorn66fr">Soundcloud</a>
   </div>
   </div>
   </div>
