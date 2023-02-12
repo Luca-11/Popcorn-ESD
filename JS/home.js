@@ -12,7 +12,7 @@ export default {
   <div class="gradient"></div>
   </div>
   
-  <div>
+  <div id="contentHome">
     <navigation class="z-2"></navigation>
 
     <div class="d-flex flex-column justify-content-center" id="title">

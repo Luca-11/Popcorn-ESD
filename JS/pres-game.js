@@ -25,7 +25,7 @@ async created(){
 },
   template: `
   
-  <section>
+  <section id="infos">
           <img id="background" :src="infoGame.Picture" alt="image-jeux"/>
           <div class="gradient"></div>
           <a :href="infoGame.lien" id="play" target="_blank">Jouer</a>
@@ -33,13 +33,13 @@ async created(){
             <div class="row">
             <div id="contents" class="col-12">
 
-               <div class="col-12" id="contentJeux">
-                <div id="left" class="col-8">
+               <div class="col-md-12 col-12" id="contentJeux">
+                <div id="left" class="col-md-8 col-12">
                 <h2>{{infoGame.Title}}</h2>
-                  <p class="text-white">{{infoGame.Description}}</p>
+                  <p class="text-white my-5">{{infoGame.Description}}</p>
                   
                 </div>
-                <div id="right" class="col-4">
+                <div id="right" class="col-md-4 col-12">
                 <h5>Crédits : </h5>
                   <p class="text-white">{{infoGroupe.name}}</p>
                 </div>

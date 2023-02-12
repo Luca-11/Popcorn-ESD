@@ -40,6 +40,7 @@ body {
 h1,h2,h3,h4,h5,h6,p{
   font-family: 'Roboto Mono', monospace;
 }
+
 h1 {
   font-size: 80px !important;
   color: white !important;
@@ -258,4 +259,47 @@ cursor: pointer;
 
 .logoAnimation:hover {
   scale: 1.2;
+}
+#contentHome{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+@media screen and (max-width : 500px){
+  h1{
+    color: white !important;
+    font-size: 50px !important;
+    text-align: center !important;
+  }
+  #title{
+    width: 100%;
+  }
+  #check{
+    width: 45%;
+  }
+  #follow{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  #follow a{
+    padding-bottom: 50px;
+  }
+#contentJeux{
+  display: flex;
+  flex-direction: column;
+}
+#right{
+  margin-top: 50px;
+}
+#play{
+  position: relative;
+  top: 30vh;
+  left: 25vh;
+}
+}
+
+#infos{
+  height: 100vh;
 }
