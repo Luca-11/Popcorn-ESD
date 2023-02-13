@@ -260,11 +260,7 @@ cursor: pointer;
 .logoAnimation:hover {
   scale: 1.2;
 }
-#contentHome{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
+
 @media screen and (max-width : 500px){
   h1{
     color: white !important;
@@ -296,7 +292,19 @@ cursor: pointer;
 #play{
   position: relative;
   top: 30vh;
-  left: 25vh;
+  left: 18vh;
+}
+
+#heart{
+  display: none;
+}
+#contentHome{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#menu{
+  margin-top: 50px;
 }
 }
 

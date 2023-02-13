@@ -56,7 +56,7 @@ createApp({
 <div class="container">
 <div class="row">
   <div id="heartContent" class="p-5">
-    <img id="heart" src="./img/red_heart.png" class="img-fluid" alt="coeur"/>
+    <img id="heart" src="./img/red_heart.png" class="" alt="coeur"/>
     <p class=" my-2 text-white">Good Places For Popcorn Lovers</p>
   </div>
   <div id="follow" class="my-5">
