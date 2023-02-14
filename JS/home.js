@@ -16,8 +16,8 @@ export default {
     <navigation class="z-2"></navigation>
 
     <div class="d-flex flex-column justify-content-center" id="title">
-      <h1 class="text-center z-2 my-5">PopCorn Gaming ESD</h1>
-      <a id="check" href="#games">Check our last game</a>
+      <h1 class="text-center z-2 my-5">Défie tes références des années 80-90 !</h1>
+      <a id="check" href="#games">Découvrez nos Jeux</a>
      
     </div>
   </div>
