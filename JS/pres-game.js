@@ -27,7 +27,7 @@ export default {
           <img id="background" :src="infoGame.Picture" alt="image-jeux"/>
           <div class="gradient"></div>
           <navigation id="header" ></navigation>
-          <a :href="infoGame.lien" id="play" target="_blank">Jouer</a>
+          
           <div class="container">
             <div class="row">
             <div id="contents" class="col-12">
@@ -35,6 +35,7 @@ export default {
                 <div id="left" class="col-md-8 col-12">
                 <h2>{{infoGame.Title}}</h2>
                   <p class="text-white my-5">{{infoGame.Description}}</p>
+                  <a :href="infoGame.lien" id="play" target="_blank">Jouer</a>
                 </div>
                 <div id="right" class="col-md-4 col-12">
                 <h5>Crédits : </h5>

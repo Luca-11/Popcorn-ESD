@@ -467,9 +467,6 @@ text-decoration: underline;
 }
 #play{
  all: unset;
- position: relative;
- top: 20vh;
- left: 45%;
  text-align: center;
  color: white;
  border: solid 1px white;
@@ -551,11 +548,7 @@ text-decoration: underline;
 #right{
   margin-top: 50px;
 }
-#play{
-  position: relative;
-  top: 19vh !important;
-  left: 18vh;
-}
+
 
 #heart{
   display: none;
