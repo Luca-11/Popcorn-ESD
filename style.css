@@ -152,7 +152,7 @@ animation: paths 5s step-end infinite;
   object-fit: cover;
 }
 #card{
-  height: 425px;
+  height: 465px;
 }
 .carte:hover{
   cursor: pointer;
@@ -444,7 +444,7 @@ animation: paths 5s step-end infinite;
   flex-direction: column;
   align-items: center;
 }
-#heartContent{
+#heartContent p{
   padding-right: 0;
 }
 #follow{
@@ -558,7 +558,7 @@ text-decoration: underline;
 
   }
   #card{
-    height: 1160px;
+    height: 1180px;
   }
   #follow a{
     padding-bottom: 50px;
@@ -590,7 +590,11 @@ text-decoration: underline;
   height: 125vh;
   align-items: center;
   padding-bottom: 40px;
-}#texte p{
+}
+#texte{
+  width: 400px;
+}
+#texte p{
   margin: 0;
 }
 }
