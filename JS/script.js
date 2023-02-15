@@ -13,13 +13,14 @@ createApp({
 
 <home ></home>
 
-<div id="games" class= "container">
+<div id="games" class= "container" >
   <div class="row">
     
    
     <div class="text-center" id="texte">
-      <h2 class="fs-1">Vous présente de nouveaux Jeux</h2>
-      <p class="my-5 fs-3">"Revivez les années 80 avec ces trois jeux qui vous transporteront dans une époque de lumières clignotantes, de pop culture et de divertissement déjanté"</p>
+      <p class="my-5 fs-3"><span>Sélectionnez un défi PopCOrn</span>
+      et replongez dans l’ambiance
+      des années 90 !</p>
     </div>
   </div>
 </div>

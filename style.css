@@ -1,5 +1,11 @@
+@font-face {
+  font-family: myFont;
+  src: url(./font/Futura\ Bold\ Italic\ font.ttf);
+  font-weight: bold;
+}
 body {
-  background: linear-gradient(180deg, #222539 41.47%, #00C4B3 100%);
+  
+  background-color: #000 !important;
   
 }
 
@@ -38,12 +44,13 @@ body {
 
 }
 h1,h2,h3,h4,h5,h6,p{
-  font-family: 'Roboto Mono', monospace;
+  font-family: myFont !important;
 }
 
 h1 {
   font-size: 50px !important;
   color: white !important;
+  
 }
 #content{
   height: 100vh;
@@ -64,8 +71,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-
-  background: linear-gradient(#00000081, #222539),repeating-linear-gradient(0, transparent, transparent 1px, black 3px, black 3px);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, #000);
   /* animation: backanimation 1.5s infinite alternate; */
   z-index: -1;
 }
@@ -139,10 +145,15 @@ animation: paths 5s step-end infinite;
   text-decoration: underline;
 }
 .carte{
-  height: 100vh;
+  height: 0;
   transition: 0.5s;
 }
-
+.carte img{
+  object-fit: cover;
+}
+#card{
+  height: 425px;
+}
 .carte:hover{
   cursor: pointer;
   filter: brightness(60%);
@@ -409,6 +420,11 @@ animation: paths 5s step-end infinite;
 
 #texte{
   color: white;
+  
+}
+
+#texte span{
+  color: #19ddae;
 }
 #logos{
   display: flex;
@@ -427,6 +443,9 @@ animation: paths 5s step-end infinite;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+#heartContent{
+  padding-right: 0;
 }
 #follow{
   width: 50%;
@@ -493,7 +512,7 @@ text-decoration: underline;
 }
 
 #texte {
-  width: 1000px;
+  width: 513px;
  
   display: flex;
   justify-content: center;
@@ -538,6 +557,9 @@ text-decoration: underline;
     text-align: center;
 
   }
+  #card{
+    height: 1160px;
+  }
   #follow a{
     padding-bottom: 50px;
   }
@@ -549,7 +571,9 @@ text-decoration: underline;
   margin-top: 50px;
 }
 
-
+.carte{
+  height: 10%;
+}
 #heart{
   display: none;
 }
@@ -566,6 +590,8 @@ text-decoration: underline;
   height: 125vh;
   align-items: center;
   padding-bottom: 40px;
+}#texte p{
+  margin: 0;
 }
 }
 
