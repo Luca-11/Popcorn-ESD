@@ -72,7 +72,12 @@ h1 {
   user-select: none;
   z-index: -2;
 }
-
+#gameTitle{
+  font-size: 40px;
+}
+#dec{
+  font-size: 35px;
+}
 .gradient {
   position: absolute;
   left: 0;
@@ -143,7 +148,11 @@ img.Logo_Hub {
   display: flex;
   justify-content: end;
 }
-
+#contentHome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #description{
   font-size: 35px;
 }
@@ -249,7 +258,7 @@ text-decoration: underline;
 #contents {
   display: flex;
   height: 100vh;
-  align-items: center;
+  align-items: end;
   padding-bottom: 40px;
 }
 
@@ -263,6 +272,7 @@ text-decoration: underline;
 
 #play {
   all: unset;
+  font-size: 24px;
   text-align: center;
   color: rgb(0, 0, 0);
   padding-top: 8px;
@@ -382,6 +392,9 @@ text-decoration: underline;
 }
 #infos{
   height: 860px !important;
+}
+#dec{
+  font-size: 24px;
 }
 }
 

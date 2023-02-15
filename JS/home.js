@@ -9,7 +9,7 @@ export default {
 <div id="content">
   <div>
   <video id="video" src="./img/IntroHubESDPopcorn.mp4" autoplay loop muted></video>
-  <div class="gradient"></div>
+  <div class="gradientI"></div>
   </div>
   
   
@@ -27,10 +27,10 @@ export default {
     </div>
   </div>
 </nav>
-    <div class="main">
-    <img class="Logo_Hub img-fluid" src="img/Logo_Hub.webp" id="logo">
+    
+    <img class="Logo_Hub img-fluid" src="img/Logo_Hub@3x.webp" id="logo">
       <a class="Dcouvrir-les-dfis" href="#texte">DÉCOUVRIR LES DÉFIS</a>
-    </div>
+    
   </div>
 </div>
    

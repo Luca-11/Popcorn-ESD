@@ -25,19 +25,19 @@ export default {
   template: `
   <section id="infos">
           <img id="background" :src="infoGroupe.logo" alt="image-jeux"/>
-          <div class="gradient"></div>
+          <div class="gradientI"></div>
           <navigation id="header" ></navigation>
           <div class="container">
             <div class="row">
               <div id="contents" class="col-12">
                <div class="col-md-12 col-12" id="contentJeux">
-                <div id="left" class="col-md-6 col-10">
+                <div id="left" class="col-md-7 col-10">
                   <h2 id="gameTitle">{{infoGame.Title}}</h2>
-                  <p class="text-white my-5">{{infoGame.Description}}</p>
+                  <p class="text-white " id="dec">{{infoGame.Description}}</p>
                  
-                  <p class="text-white">Groupe : {{infoGroupe.name}}</p>
+                  <p class="text-white">Groupe : <span>{{infoGroupe.name}}</span></p>
                 </div>
-                <div id="right" class="col-md-6 col-12">
+                <div id="right" class="col-md-5 col-12">
                   <a :href="infoGame.lien" id="play" target="_blank">Jouer</a>
                 </div>
               </div>
