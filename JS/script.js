@@ -18,7 +18,7 @@ createApp({
     
    
     <div class="text-center" id="texte">
-      <p class="my-5 fs-3"><span>Sélectionnez un défi PopCOrn</span>
+      <p class="my-5 fs-3" id="accroche"><span>Sélectionnez un défi PopCOrn</span>
       et replongez dans l’ambiance
       des années 90 !</p>
     </div>

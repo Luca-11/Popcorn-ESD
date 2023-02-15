@@ -12,13 +12,24 @@ export default {
   <div class="gradient"></div>
   </div>
   
-  <div id="contentHome">
-    <navigation class="z-2"></navigation>
-
-    <div class="d-flex flex-column justify-content-center" id="title">
-      <h1 class="text-center z-2 my-5">Défie tes références des années 80-90 !</h1>
-      <a id="check" href="#games">Découvrez nos Jeux</a>
-     
+  
+    
+    <div id="contentHome">
+    <nav class="container my-3">
+  <div class="row">
+    <div class="col-12 " id="menu">
+      <div class="col-12">
+      <a href="https://hub2023.popcorn-esd.com/">
+        <img class="img-fluid" src="./img/logoPopcorn.png" alt="logo-popcorn" id="logoPopcorn"/>
+      </a>
+      </div>
+       
+    </div>
+  </div>
+</nav>
+    <div class="main">
+    <img class="Logo_Hub img-fluid" src="img/Logo_Hub.webp" id="logo">
+      <a class="Dcouvrir-les-dfis" href="#texte">Découvrez les défis</a>
     </div>
   </div>
 </div>

@@ -16,7 +16,7 @@ async created(){
     let data = await resp.json()
     console.log(data)
     this.infos = data
-    this.infoGrp = data.groupe
+   
 },
 
 template: `
