@@ -18,9 +18,9 @@ createApp({
     
    
     <div class="text-center" id="texte">
-      <p class="my-5 fs-3" id="accroche"><span>Sélectionnez un défi PopCOrn</span>
-      et replongez dans l’ambiance
-      des années 90 !</p>
+      <p class="my-5 fs-3" id="accroche"><span>SELECTIONNEZ UN DÉFIS POPCORN</span><br/>
+      ET REPLONGEZ DANS L'AMBIANCE
+     DES ANNÉES 90 !</p>
     </div>
   </div>
 </div>
@@ -53,6 +53,7 @@ createApp({
   },
   template:`
   <presGame :id="${id}" url="${url}"></presGame>
+  
   <footer class="bg-black" >
 <div class="container">
 <div class="row">

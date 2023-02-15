@@ -29,7 +29,7 @@ export default {
 </nav>
     <div class="main">
     <img class="Logo_Hub img-fluid" src="img/Logo_Hub.webp" id="logo">
-      <a class="Dcouvrir-les-dfis" href="#texte">Découvrez les défis</a>
+      <a class="Dcouvrir-les-dfis" href="#texte">DÉCOUVRIR LES DÉFIS</a>
     </div>
   </div>
 </div>

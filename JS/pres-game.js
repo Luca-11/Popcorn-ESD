@@ -25,7 +25,7 @@ export default {
   template: `
   <section id="infos">
           <img id="background" :src="infoGroupe.logo" alt="image-jeux"/>
-          <div class="gradientI"></div>
+          <div class="gradient"></div>
           <navigation id="header" ></navigation>
           <div class="container">
             <div class="row">
